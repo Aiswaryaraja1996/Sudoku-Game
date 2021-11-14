@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "start": "json-server --watch db.json"
+  },
+  "name": "sudoku-game",
+  "version": "1.0.0",
+  "main": "sudoku.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
