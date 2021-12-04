@@ -5,12 +5,13 @@
   },
   "name": "sudoku-game",
   "version": "1.0.0",
-  "main": "sudoku.js",
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
+    "start": "node server.js"
   },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
   "author": "",
   "license": "ISC",
   "description": ""
