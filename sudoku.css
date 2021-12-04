@@ -148,10 +148,12 @@ header h2 {
 .col-8 {
   border-right: 2px solid black;
 }
-
+.dummy {
+  width: 120px;
+}
 @media only screen and (max-width: 600px) {
-  header h2{
-    font-size:32px;
+  header h2 {
+    font-size: 24px;
   }
   .row {
     width: 324px;
@@ -159,5 +161,8 @@ header h2 {
   .col {
     width: 36px;
     height: 36px;
+  }
+  .dummy {
+    width: 100px;
   }
 }
