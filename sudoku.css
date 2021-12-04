@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color:#59D7EE */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  border-style: none;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+  background-color: #59d7ee;
+  font-size: 16px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+.mode {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+#night,
+#day {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 5px 8px 5px 8px;
+  cursor: pointer;
+}
+
+.board {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  width: 450px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  display: flex;
+  text-align: center;
+}
+header h2 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: white;
+
+}
+
+.dark-mode {
+  background-color: black !important;
+}
+
+.dark-buttons {
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.dark-label {
+  color: white !important;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #59d7ee;
+}
+
+.col {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(153, 149, 149);
+  color: black;
+  font-size: 32px;
+  caret-color: transparent;
+}
+
+.dark-col {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+}
+
+.col-3,
+.col-6,
+.col-0 {
+  border-left: 2px solid black;
+}
+
+.row-0 .col,
+.row-3 .col,
+.row-6 .col {
+  border-top: 2px solid black;
+}
+
+.row-8 .col {
+  border-bottom: 2px solid black;
+}
+
+.col-8 {
+  border-right: 2px solid black;
+}
