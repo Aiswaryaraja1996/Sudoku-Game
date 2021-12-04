@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "json-server": "^0.17.0",
-    "start": "json-server --watch db.json"
+    "json-server": "^0.17.0"
   },
   "name": "sudoku-game",
   "version": "1.0.0",
