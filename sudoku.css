@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Roboto Slab", serif;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -147,4 +148,15 @@ header h2 {
 
 .col-8 {
   border-right: 2px solid black;
+}
+
+
+@media only screen and (max-width: 600px){
+  .row{
+    width:270px ;
+  }
+  .col{
+    width:30px ;
+    height:30px ;
+  }
 }
