@@ -22,4 +22,8 @@ npm run start
 - Timers will be added.
 - More questions will be included.
 
+### Tech Stack Used
+- HTML5
+- CSS3
+- JavaScript
 
